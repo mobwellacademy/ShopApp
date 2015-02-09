@@ -11,6 +11,10 @@ public class MainActivity extends ActionBarActivity {
     private String name;
     private String lastName;
 
+    public MainActivity(String name) {
+        this.name = name;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
