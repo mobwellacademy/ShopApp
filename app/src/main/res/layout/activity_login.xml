@@ -1,5 +1,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/activity_padding"
     android:orientation="vertical"
@@ -40,6 +41,4 @@
         android:text="@string/shopapp_bt_registar"
         android:id="@+id/shopapp_login_reg"
         android:layout_gravity="center_horizontal" />
-
-
 </LinearLayout>
