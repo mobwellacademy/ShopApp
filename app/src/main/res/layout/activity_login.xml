@@ -38,6 +38,7 @@
             android:layout_height="wrap_content"
             android:text="@string/shopapp_login_bt_entrar"
             android:id="@+id/shopapp_login_ent"
+            android:onClick="onClickLogin"
             android:layout_gravity="right"
             android:layout_weight="1"
             android:layout_marginRight="5dp" />
@@ -47,7 +48,7 @@
             android:layout_height="wrap_content"
             android:text="@string/shopapp_bt_registar"
             android:id="@+id/shopapp_login_reg"
-            android:onClick="pressRegister"
+            android:onClick="onClickRegister"
             android:layout_weight="1"
             android:layout_marginLeft="5dp" />
     </LinearLayout>

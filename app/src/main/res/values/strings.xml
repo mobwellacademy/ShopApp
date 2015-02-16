@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ShopApp</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_login">Login</string>
     <string name="title_activity_sign_up">SignUp</string>
+    <string name="shopapp_notyetimplemented">Função ainda não implementada !</string>
     <string name="shopapp_login_user">Nome de utilizador</string>
     <string name="shopapp_login_user_hint">Nome de utilizador ou email</string>
     <string name="shopapp_login_password">Password</string>

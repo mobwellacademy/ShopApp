@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import org.mobwell.academy.shopapp.R;
 
@@ -39,8 +40,12 @@ public class Login extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void pressRegister(View view) {
+    public void onClickRegister(View view) {
         Intent srcRegister = new Intent(this, SignUp.class);
         startActivity(srcRegister);
+    }
+
+    public void onClickLogin(View view) {
+        Toast.makeText(this, R.string.shopapp_notyetimplemented, Toast.LENGTH_SHORT).show();
     }
 }
