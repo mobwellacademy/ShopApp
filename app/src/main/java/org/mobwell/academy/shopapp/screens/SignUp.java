@@ -15,7 +15,6 @@ public class SignUp extends ActionBarActivity {
         setContentView(R.layout.activity_sign_up);
     }
 
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

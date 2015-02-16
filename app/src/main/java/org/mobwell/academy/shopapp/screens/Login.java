@@ -1,9 +1,11 @@
 package org.mobwell.academy.shopapp.screens;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 import org.mobwell.academy.shopapp.R;
 
@@ -14,7 +16,6 @@ public class Login extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -36,5 +37,10 @@ public class Login extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void pressRegistar(View view) {
+        Intent srcRegister = new Intent(this, SignUp.class);
+        startActivity(srcRegister);
     }
 }

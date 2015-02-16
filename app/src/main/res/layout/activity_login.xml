@@ -40,5 +40,6 @@
         android:layout_height="50dp"
         android:text="@string/shopapp_bt_registar"
         android:id="@+id/shopapp_login_reg"
+        android:onClick="pressRegistar"
         android:layout_gravity="center_horizontal" />
 </LinearLayout>
