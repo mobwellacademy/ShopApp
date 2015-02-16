@@ -39,7 +39,7 @@ public class Login extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void pressRegistar(View view) {
+    public void pressRegister(View view) {
         Intent srcRegister = new Intent(this, SignUp.class);
         startActivity(srcRegister);
     }
