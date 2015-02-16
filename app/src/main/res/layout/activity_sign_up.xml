@@ -6,76 +6,46 @@
     tools:context="org.mobwell.academy.shopapp.screens.SignUp"
     android:orientation="vertical">
 
-    <TextView
-        android:text="@string/shopapp_registar_nome"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/shopapp_registar_nome"
-        android:hint="@string/shopapp_registar_nome_hint" />
-
-    <TextView
-        android:text="@string/shopapp_registar_sobrenome"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/shopapp_registar_sobrenome"
-        android:hint="@string/shopapp_registar_sobrenome_hint" />
-
-    <TextView
-        android:text="@string/shopapp_registar_nick"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:gravity="center_horizontal"
+        android:hint="@string/shopapp_fullname_hint"
+        android:layout_marginTop="@dimen/textbox_margin"
+        android:layout_marginBottom="@dimen/textbox_margin" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/shopapp_registar_nick"
-        android:hint="@string/shopapp_registar_nick_hint" />
-
-    <TextView
-        android:text="@string/shopapp_registar_email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:gravity="center_horizontal"
+        android:hint="@string/shopapp_username_hint"
+        android:layout_marginBottom="@dimen/textbox_margin"
+        android:layout_marginTop="@dimen/textbox_margin" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/shopapp_registar_email"
-        android:hint="@string/shopapp_registar_email_hint" />
-
-    <TextView
-        android:text="@string/shopapp_registar_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:gravity="center_horizontal"
+        android:hint="@string/shopapp_email_hint"
+        android:layout_marginTop="@dimen/textbox_margin"
+        android:layout_marginBottom="@dimen/textbox_margin" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/shopapp_registar_pass"
-        android:hint="@string/shopapp_registar_password_hint" />
-
-    <TextView
-        android:text="@string/shopapp_registar_nif"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/shopapp_registar_nif"
-        android:hint="@string/shopapp_registar_nif_hint" />
+        android:gravity="center_horizontal"
+        android:hint="@string/shopapp_password_hint"
+        android:layout_marginBottom="@dimen/textbox_margin"
+        android:layout_marginTop="@dimen/textbox_margin" />
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:text="@string/shopapp_bt_registar"
+        android:layout_height="wrap_content"
+        android:text="@string/shopapp_bt_register"
         android:id="@+id/shopapp_login_reg"
         android:layout_gravity="center_horizontal" />
 

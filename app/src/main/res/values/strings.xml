@@ -4,23 +4,14 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_login">Login</string>
     <string name="title_activity_sign_up">SignUp</string>
+
     <string name="shopapp_notyetimplemented">Função ainda não implementada !</string>
-    <string name="shopapp_login_user">Nome de utilizador</string>
-    <string name="shopapp_login_user_hint">Nome de utilizador ou email</string>
-    <string name="shopapp_login_password">Password</string>
-    <string name="shopapp_login_password_hint">Insira a password</string>
-    <string name="shopapp_login_bt_entrar">Entrar</string>
-    <string name="shopapp_bt_registar">Registrar</string>
-    <string name="shopapp_registar_nome">Nome</string>
-    <string name="shopapp_registar_nome_hint">Introduza o seu nome</string>
-    <string name="shopapp_registar_sobrenome">Sobrenome</string>
-    <string name="shopapp_registar_sobrenome_hint">Introduza o seu sobrenome</string>
-    <string name="shopapp_registar_nick">Nick</string>
-    <string name="shopapp_registar_nick_hint">Introduza um nick de utilizador</string>
-    <string name="shopapp_registar_password">Password</string>
-    <string name="shopapp_registar_password_hint">Introduza uma password</string>
-    <string name="shopapp_registar_email">Email</string>
-    <string name="shopapp_registar_email_hint">Introduza o seu email</string>
-    <string name="shopapp_registar_nif">NIF</string>
-    <string name="shopapp_registar_nif_hint">Introduza o seu NIF</string>
+
+    <string name="shopapp_fullname_hint">Nome Inteiro</string>
+    <string name="shopapp_username_hint">Nome de Utilizador</string>
+    <string name="shopapp_email_hint">Endereço Email</string>
+    <string name="shopapp_password_hint">Palavra Passe</string>
+
+    <string name="shopapp_bt_login">Entrar</string>
+    <string name="shopapp_bt_register">Registrar</string>
 </resources>

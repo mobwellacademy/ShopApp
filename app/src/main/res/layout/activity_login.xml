@@ -6,27 +6,23 @@
     android:orientation="vertical"
     tools:context="org.mobwell.academy.shopapp.screens.Login">
 
-    <TextView
-        android:text="@string/shopapp_login_user"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/shopapp_user"
-        android:hint="@string/shopapp_login_user_hint" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/shopapp_login_password" />
+        android:gravity="center_horizontal"
+        android:hint="@string/shopapp_username_hint"
+        android:layout_marginTop="@dimen/textbox_margin"
+        android:layout_marginBottom="@dimen/textbox_margin" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/shopapp_pass"
-        android:hint="@string/shopapp_login_password_hint" />
+        android:gravity="center_horizontal"
+        android:hint="@string/shopapp_password_hint"
+        android:layout_marginBottom="@dimen/textbox_margin"
+        android:layout_marginTop="@dimen/textbox_margin" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -36,7 +32,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/shopapp_login_bt_entrar"
+            android:text="@string/shopapp_bt_login"
             android:id="@+id/shopapp_login_ent"
             android:onClick="onClickLogin"
             android:layout_gravity="right"
@@ -46,7 +42,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/shopapp_bt_registar"
+            android:text="@string/shopapp_bt_register"
             android:id="@+id/shopapp_login_reg"
             android:onClick="onClickRegister"
             android:layout_weight="1"
