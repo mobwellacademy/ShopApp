@@ -3,15 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/activity_padding"
-    tools:context="org.mobwell.academy.shopapp.screens.activities.AvSignUp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="org.mobwell.academy.shopapp.screens.activities.AvSignUp">
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/shopapp_registar_nome"
         android:gravity="center_horizontal"
-        android:hint="@string/shopapp_fullname_hint"
+        android:hint="@string/fullname_hint"
         android:layout_marginTop="@dimen/textbox_margin"
         android:layout_marginBottom="@dimen/textbox_margin" />
 
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/shopapp_registar_nick"
         android:gravity="center_horizontal"
-        android:hint="@string/shopapp_username_hint"
+        android:hint="@string/username_hint"
         android:layout_marginBottom="@dimen/textbox_margin"
         android:layout_marginTop="@dimen/textbox_margin" />
 
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/shopapp_registar_email"
         android:gravity="center_horizontal"
-        android:hint="@string/shopapp_email_hint"
+        android:hint="@string/email_hint"
         android:layout_marginTop="@dimen/textbox_margin"
         android:layout_marginBottom="@dimen/textbox_margin" />
 
@@ -38,14 +38,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/shopapp_registar_pass"
         android:gravity="center_horizontal"
-        android:hint="@string/shopapp_password_hint"
+        android:hint="@string/password_hint"
         android:layout_marginBottom="@dimen/textbox_margin"
         android:layout_marginTop="@dimen/textbox_margin" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/shopapp_bt_register"
+        android:text="@string/bt_register"
         android:id="@+id/shopapp_login_reg"
         android:layout_gravity="center_horizontal" />
 

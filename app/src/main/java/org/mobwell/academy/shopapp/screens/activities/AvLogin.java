@@ -6,16 +6,22 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import org.mobwell.academy.shopapp.R;
 
 public class AvLogin extends Activity {
 
+    private EditText username, password;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_av_login);
+
+        username = (EditText) findViewById(R.id.shopapp_login_user);
+        password = (EditText) findViewById(R.id.shopapp_login_pass);
     }
 
     @Override
@@ -46,6 +52,14 @@ public class AvLogin extends Activity {
     }
 
     public void onClickLogin(View view) {
-        Toast.makeText(this, R.string.shopapp_notyetimplemented, Toast.LENGTH_SHORT).show();
+        if (username.getText().toString().trim().isEmpty() || username.getText().toString().trim().isEmpty()) {
+            Toast.makeText(this, this.getString(R.string.login_incomplete), Toast.LENGTH_SHORT).show();
+        } else {
+
+            // TODO : Código de Login
+
+            Intent srcEnter = new Intent(this, AvLoja.class);
+            startActivity(srcEnter);
+        }
     }
 }

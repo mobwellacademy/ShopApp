@@ -5,15 +5,17 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_login">Login</string>
     <string name="title_activity_sign_up">SignUp</string>
-    <string name="shopapp_notyetimplemented">Função ainda não implementada !</string>
-    <string name="shopapp_fullname_hint">Nome Inteiro</string>
-    <string name="shopapp_username_hint">Nome de Utilizador</string>
-    <string name="shopapp_email_hint">Endereço Email</string>
-    <string name="shopapp_password_hint">Palavra Passe</string>
-    <string name="shopapp_bt_login">Entrar</string>
-    <string name="shopapp_bt_register">Registrar</string>
     <string name="title_activity_av_loja">AvLoja</string>
-    <string name="hello_world">Hello world!</string>
+
+    <string name="fullname_hint">Nome Inteiro</string>
+    <string name="username_hint">Nome de Utilizador</string>
+    <string name="email_hint">Endereço Email</string>
+    <string name="password_hint">Palavra Passe</string>
+
+    <string name="bt_login">Entrar</string>
+    <string name="bt_register">Registrar</string>
+    <string name="login_incomplete">Por favor, preencha todos os dados do Login para continuar.</string>
+
     <string name="title_activity_av_artigo">AvArtigo</string>
     <string name="shopapp_artigo_descricao">Descrição do artigo</string>
     <string name="shopapp_artigo_hint_descricao">Introduza uma descrição do artigo</string>
@@ -21,6 +23,4 @@
     <string name="shopapp_artigo_hint_nome">Introduza o nome do artigo</string>
     <string name="shopapp_artigo_logo">Logotipo</string>
     <string name="shopapp_artigo_banner">Banner</string>
-
-
 </resources>

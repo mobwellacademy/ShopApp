@@ -9,18 +9,19 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/shopapp_user"
+        android:id="@+id/shopapp_login_user"
         android:gravity="center_horizontal"
-        android:hint="@string/shopapp_username_hint"
+        android:hint="@string/username_hint"
         android:layout_marginTop="@dimen/textbox_margin"
         android:layout_marginBottom="@dimen/textbox_margin" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/shopapp_pass"
+        android:id="@+id/shopapp_login_pass"
         android:gravity="center_horizontal"
-        android:hint="@string/shopapp_password_hint"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
         android:layout_marginBottom="@dimen/textbox_margin"
         android:layout_marginTop="@dimen/textbox_margin" />
 
@@ -32,7 +33,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/shopapp_bt_login"
+            android:text="@string/bt_login"
             android:id="@+id/shopapp_login_ent"
             android:onClick="onClickLogin"
             android:layout_gravity="right"
@@ -42,7 +43,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/shopapp_bt_register"
+            android:text="@string/bt_register"
             android:id="@+id/shopapp_login_reg"
             android:onClick="onClickRegister"
             android:layout_weight="1"
