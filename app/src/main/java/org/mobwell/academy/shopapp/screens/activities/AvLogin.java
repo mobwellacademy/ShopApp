@@ -52,7 +52,7 @@ public class AvLogin extends Activity {
     }
 
     public void onClickLogin(View view) {
-        if (username.getText().toString().trim().isEmpty() || username.getText().toString().trim().isEmpty()) {
+        if (username.getText().toString().trim().isEmpty() && password.getText().toString().trim().isEmpty()) {
             Toast.makeText(this, this.getString(R.string.login_incomplete), Toast.LENGTH_SHORT).show();
         } else {
 
