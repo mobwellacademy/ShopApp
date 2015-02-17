@@ -14,5 +14,13 @@
     <string name="shopapp_bt_register">Registrar</string>
     <string name="title_activity_av_loja">AvLoja</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_av_artigo">AvArtigo</string>
+    <string name="shopapp_artigo_descricao">Descrição do artigo</string>
+    <string name="shopapp_artigo_hint_descricao">Introduza uma descrição do artigo</string>
+    <string name="shopapp_artigo_nome">Nome do artigo</string>
+    <string name="shopapp_artigo_hint_nome">Introduza o nome do artigo</string>
+    <string name="shopapp_artigo_logo">Logotipo</string>
+    <string name="shopapp_artigo_banner">Banner</string>
+
 
 </resources>

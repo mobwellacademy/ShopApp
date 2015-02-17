@@ -24,6 +24,10 @@
             android:name=".screens.activities.AvLoja"
             android:label="@string/title_activity_av_loja" >
         </activity>
+        <activity
+            android:name=".screens.activities.AvArtigo"
+            android:label="@string/title_activity_av_artigo" >
+        </activity>
     </application>
 
 </manifest>
