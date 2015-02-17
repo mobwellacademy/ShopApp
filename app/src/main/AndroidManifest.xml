@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".screens.AvLogin"
+            android:name=".screens.activities.AvLogin"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,11 +17,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".screens.AvSignUp"
+            android:name=".screens.activities.AvSignUp"
             android:label="@string/title_activity_sign_up" >
         </activity>
         <activity
-            android:name=".screens.AvLoja"
+            android:name=".screens.activities.AvLoja"
             android:label="@string/title_activity_av_loja" >
         </activity>
     </application>

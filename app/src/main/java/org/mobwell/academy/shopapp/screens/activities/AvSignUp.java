@@ -1,4 +1,4 @@
-package org.mobwell.academy.shopapp.screens;
+package org.mobwell.academy.shopapp.screens.activities;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -7,19 +7,18 @@ import android.view.MenuItem;
 
 import org.mobwell.academy.shopapp.R;
 
-public class AvLoja extends Activity {
+public class AvSignUp extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_av_loja);
+        setContentView(R.layout.activity_av_sign_up);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_av_loja, menu);
+        getMenuInflater().inflate(R.menu.menu_av_sign_up, menu);
         return true;
     }
 
