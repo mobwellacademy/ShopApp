@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:padding="@dimen/activity_padding"
     android:orientation="vertical"
-    tools:context="org.mobwell.academy.shopapp.screens.Login">
+    tools:context="org.mobwell.academy.shopapp.screens.AvLogin">
 
     <EditText
         android:layout_width="match_parent"

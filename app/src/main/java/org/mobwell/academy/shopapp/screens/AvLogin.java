@@ -10,18 +10,18 @@ import android.widget.Toast;
 
 import org.mobwell.academy.shopapp.R;
 
-public class Login extends Activity {
+public class AvLogin extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_av_login);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_login, menu);
+        getMenuInflater().inflate(R.menu.menu_av_login, menu);
         return true;
     }
 
@@ -41,7 +41,7 @@ public class Login extends Activity {
     }
 
     public void onClickRegister(View view) {
-        Intent srcRegister = new Intent(this, SignUp.class);
+        Intent srcRegister = new Intent(this, AvSignUp.class);
         startActivity(srcRegister);
     }
 
